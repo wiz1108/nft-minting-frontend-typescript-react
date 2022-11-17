@@ -1,0 +1,12 @@
+.background {
+  display: block !important;
+  width: 100% !important;
+  overflow: auto !important;
+  justify-content: center !important;
+  background: linear-gradient(
+    180deg,
+    #391f1f 0 10.42%,
+    #6f3838 10.42% 35.94%,
+    #391f1f 100%
+  ) !important;
+}

@@ -1,0 +1,87 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.walletModalContaier {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 350;
+  width: 70%;
+  background-color: rgba(196, 196, 196, 0.7);
+  box-shadow: 24;
+  border-radius: 5px;
+  padding: 4;
+}
+
+.connectWallet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: "25px";
+  font-weight: 600;
+  font-family: "Chewy";
+  color: "#280D5f";
+  text-align: center;
+  margin: auto;
+}
+
+.walletModalButton {
+  cursor: pointer;
+  margin-top: 2;
+  font-size: 20;
+  font-family: "Chewy";
+  background: rgba(253, 218, 51, 0.8);
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  :hover {
+    background: rgba(253, 218, 158, 0.8);
+  }
+}
+
+.marginRight {
+  margin-right: 10;
+}
+
+.walletButton {
+  position: absolute;
+  width: 244px;
+  height: 49px;
+  top: 50px;
+  right: 42px;
+  background: #ff5050;
+  border-radius: 90px;
+  font-family: "Acme";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 46px;
+  color: white;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.modalContainer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

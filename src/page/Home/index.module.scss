@@ -1,0 +1,31 @@
+.back {
+  background-image: url("../../assets/imgs/fire_mask.png");
+  background-size: 100% 101%;
+  padding: 0px 0px 155px;
+  padding-top: 124px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  max-width: 1520px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: 0px auto 40px auto;
+  flex-direction: row;
+  color: white;
+  font-size: 20px;
+}
+
+.mintCaption {
+  color: #ff5050;
+  margin: 0px 0px 70px;
+  text-align: center;
+}
+
+.topMargin {
+  margin-top: 70px;
+}

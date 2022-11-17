@@ -1,0 +1,55 @@
+.link {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+.social {
+  width: 23px;
+  height: 20px;
+}
+
+.body {
+  width: 100%;
+  background: #1a1a1a;
+  padding: 50px 0px 40px;
+}
+
+.down {
+  display: flex;
+  justify-content: space-between;
+  max-width: 145px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 64px 30px 40px;
+}
+
+.info {
+  display: block;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 44px;
+  text-align: center;
+}
+
+.border {
+  border: 1px solid #696969;
+}
+
+@media only screen and (max-width: 1024px) {
+  .text {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1106px) {
+  .text {
+    font-size: 12px;
+  }
+}
